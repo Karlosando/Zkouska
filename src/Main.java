@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +34,23 @@ public class Main {
         for (int i = 0;i < 3; i++) {
             System.out.println("nejsem niggaa");
         }
+
+        String auta[] = {"BMW", "AUDI", "Peugeot"};
+
+        for (String auto : auta) {
+            System.out.println(auta[1]);
+        }
+
+        System.out.println(auta[2]);
+
+        ArrayList<String> bazar = new ArrayList<>();
+
+        bazar.add("Porsche");
+        bazar.add("Maserati");
+        bazar.add("Mercedes");
+        bazar.add("Lambordžíny");
+
+        System.out.println(bazar.get(1));
     }
 }
 
