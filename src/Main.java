@@ -51,6 +51,20 @@ public class Main {
         bazar.add("Lambordžíny");
 
         System.out.println(bazar.get(1));
-    }
-}
 
+        funkce();
+        int vysledek = secti(1,7);
+        System.out.println(vysledek);
+
+
+    }
+
+    public static void funkce() {
+        System.out.println("Java funkce!");
+    }
+
+    public static int secti(int a, int b) {
+        return a + b;
+    }
+
+}
