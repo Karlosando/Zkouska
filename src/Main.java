@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        hrac mag = new hrac("mage",1 , 100);
+        System.out.println("tvoje nová classa je: "+mag.trida+" tvoje hp "+mag.hp+" tvuj level "+mag.lvl);
+
         System.out.println("TEST");
 
         Scanner sc = new Scanner(System.in);
@@ -66,5 +70,6 @@ public class Main {
     public static int secti(int a, int b) {
         return a + b;
     }
+
 
 }
