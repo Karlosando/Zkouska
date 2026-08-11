@@ -1,3 +1,6 @@
+//SMYČKA UKONČENÁ 0, SOUČET VŠECH ČÍSEL
+
+
 import java.util.Scanner;
 
 public class aplikace02 {

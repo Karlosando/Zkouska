@@ -1,3 +1,6 @@
+//ŘETĚZEC SLOV POSOBĚ DOUCÍ, 2 S CENSUROU UKONČENO SLOVEM "konec"
+
+
 import java.util.Scanner;
 
 public class aplikace03 {
