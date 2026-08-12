@@ -1,3 +1,6 @@
+//VYTISKNUTÍ 10 ČÍSEL POD SEBOU
+
+
 public class aplikace05 {
     public static void main(String[] args){
         for (int i = 1; i<=10; i++){

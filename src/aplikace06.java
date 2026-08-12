@@ -1,3 +1,6 @@
+//HLEDÁNÍ V POLI
+
+
 import java.util.Scanner;
 
 public class aplikace06 {
