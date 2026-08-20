@@ -10,7 +10,6 @@ public class aplikace03 {
         String slovo = "";
         String veta = "";
 
-
         while(true) {
                 System.out.println("zadej slovo: ");
                 slovo = sc.next();
