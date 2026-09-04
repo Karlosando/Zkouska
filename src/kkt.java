@@ -14,6 +14,7 @@ public class kkt {
 
 
         JLabel label = new JLabel("TESTIK!");
+        label.setFont("Serif",Font.BOLD, 36);
         gbc.gridx = 0;
         gbc.gridy = 0;
         wn.add(label,gbc);
