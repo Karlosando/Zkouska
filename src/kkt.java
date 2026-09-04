@@ -5,6 +5,7 @@ public class kkt {
     public static int pocitadlo = 0;
     public static void main(String[] args) {
         JFrame wn = new JFrame("test");
+        wn.getContentPane().setBackground(Color.yellow);
         wn.setSize(500,500);
         wn.setTitle("TEST");
         wn.setLayout(new GridBagLayout());
@@ -18,6 +19,7 @@ public class kkt {
         wn.add(label,gbc);
 
         JButton button = new JButton("ahoj");
+        button.setBackground(Color.BLACK);
         button.addActionListener(e -> {
             label.setText(String.valueOf(pocitadlo));
             pocitadlo++;
